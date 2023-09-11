@@ -1,0 +1,23 @@
+# Define variables
+name = "James Nichols"
+major = "Information Technology"
+answer = "<fill in your answer>"
+num1 = 49
+num2 = 31
+
+# Perform arithmetic operations
+addition = num1 + num2
+subtraction = num1 - num2
+multiplication = num1 * num2
+division = num1 / num2
+remainder = num1 % num2
+
+# Print output
+print("Name: " + name)
+print("Major: " + major)
+print("Answer: " + answer)
+print("Addition of " + str(num1) + " and " + str(num2) + ": " + str(addition))
+print("Subtraction of " + str(num2) + " from " + str(num1) + ": " + str(subtraction))
+print("Multiplication of " + str(num1) + " and " + str(num2) + ": " + str(multiplication))
+print("Division of " + str(num1) + " by " + str(num2) + ": " + str(division))
+print("Remainder after dividing " + str(num1) + " by " + str(num2) + ": " + str(remainder))
